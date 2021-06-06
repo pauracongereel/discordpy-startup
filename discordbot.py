@@ -15,12 +15,12 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def oguricap(ctx):
-    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850978472674459668/aac4265003b57811.jpg')
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850987498242572308/05d2870175baf606.jpg')
 
 
 @bot.command()
 async def silencesuzuka(ctx):
-    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850986927414837308/b2cdaa4578310381.jpg')
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850987501422116874/9e8277cce9ad01c5.jpg')
     
     
 bot.run(token)
