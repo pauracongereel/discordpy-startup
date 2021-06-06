@@ -15,7 +15,8 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def oguricap(ctx):
-    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850987498242572308/05d2870175baf606.jpg', 'スピードA スタミナB パワーB+ 根性E+ 賢さC')
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850987498242572308/05d2870175baf606.jpg')
+    await ctx.send('スピードA スタミナB パワーB+ 根性E+ 賢さC')
 @bot.command()
 async def オグリキャップ(ctx):
     await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850987498242572308/05d2870175baf606.jpg')
