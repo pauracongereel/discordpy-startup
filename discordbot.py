@@ -14,8 +14,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('https://discord.com/channels/850978385412882442/850978385412882445/850978472964653086')
+async def oguricap(ctx):
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850978472674459668/aac4265003b57811.jpg')
 
 
 bot.run(token)
