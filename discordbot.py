@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def oguri(ctx):
+async def ping(ctx):
     await ctx.send('https://discord.com/channels/850978385412882442/850978385412882445/850978472964653086')
 
 
