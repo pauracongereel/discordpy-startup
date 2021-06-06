@@ -18,4 +18,9 @@ async def oguricap(ctx):
     await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850978472674459668/aac4265003b57811.jpg')
 
 
+@bot.command()
+async def silencesuzuka(ctx):
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/850986927414837308/b2cdaa4578310381.jpg')
+    
+    
 bot.run(token)
