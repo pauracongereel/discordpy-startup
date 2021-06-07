@@ -41,5 +41,20 @@ async def specialweek(ctx):
 @bot.command()
 async def symbolirudolf(ctx):
     await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/851012683867750410/symbolirudolf.jpg')  
-    await ctx.send('スピードB+790　スタミナB+790　パワーB+767　根性E+296　賢さ450')
+    await ctx.send('スピードB+790　スタミナB+790　パワーB+767　根性E+296　賢さC450')
+    
+@bot.command()
+async def taikishuttle(ctx):
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/851479765927329805/taikishuttle.jpg')  
+    await ctx.send('スピードS+1093　スタミナD324　パワーB+733　根性E203　賢さC+412')
+    
+@bot.command()
+async def tmoperao(ctx):
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/851479768440635483/tmoperao.jpg')  
+    await ctx.send('スピードS+1012　スタミナC+591　パワーC+550　根性D307　賢さB607')
+    
+@bot.command()
+async def tokaiteio(ctx):
+    await ctx.send('https://cdn.discordapp.com/attachments/850978385412882445/851479764477018152/tokaiteio.jpg')  
+    await ctx.send('スピードB697　スタミナB673　パワーB667　根性C413　賢さC+513')
 bot.run(token)
